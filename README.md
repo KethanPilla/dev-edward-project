@@ -1,6 +1,5 @@
 # Kethan Pilla's Portfolio Website
 
-![Portfolio Banner](https://kethanpilla.github.io/dev-edward-project/images/banner.jpg)
 
 ## 🌟 About Me
 
