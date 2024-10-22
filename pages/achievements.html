@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - Kethan Pilla</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="../styles/style.css"> 
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../images/logo.jpg" alt="Logo" class="logo-img">
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="../index.html"><i class="bi bi-house-fill"></i> Home</a></li>
+            <li><a href="achievements.html"><i class="bi bi-trophy-fill"></i> Achievements</a></li>
+            <li><a href="#"><i class="bi bi-code-slash"></i> Source Code</a></li>
+            <li><a href="#"><i class="bi bi-check-circle-fill"></i> HTML Validator</a></li>
+            <li><a href="https://github.com/KethanPilla" target="_blank"><i class="bi bi-github"></i> GitHub</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" role="button" tabindex="0">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Achievements Content Start -->
+    <div class="achievements-content">
+        <h1>Achievements</h1>
+        <div class="cards-container">
+            <div class="card">
+                <img class="card-img-top achievement-img" src="../images/codeAcademyHTML.PNG" alt="HTML5 Achievement">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="bi bi-html5"></i> HTML5</h4>
+                    <p class="card-text">Successfully completed the HTML5 course on Codecademy.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top achievement-img" src="../images/learnCss.PNG" alt="CSS3 Achievement">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="bi bi-css3"></i> CSS3</h4>
+                    <p class="card-text">Successfully completed the CSS3 course on Codecademy.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top achievement-img" src="../images/hackerRankBadges.PNG" alt="HackerRank Badges">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="bi bi-award-fill"></i> HackerRank Badges</h4>
+                    <p class="card-text">Earned C++ and Python badges from HackerRank.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Achievements Content End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact">
+        <div class="main-container">
+            <h3 id="contact">Get in Touch</h3>
+            <form id="contact-form" action="https://formsubmit.co/suryatumpati@gmail.com" method="POST">
+                <label for="name">Name</label>
+                <input class="input-field" type="text" id="name" name="name" required />
+
+                <label for="subject">Subject</label>
+                <input class="input-field" type="text" id="subject" name="subject" />
+
+                <label for="email">Email</label>
+                <input class="input-field" type="email" id="email" name="email" required />
+
+                <label for="message">Message</label>
+                <textarea class="input-field" id="message" name="message" required></textarea>
+
+                <input id="submit-btn" type="submit" value="Send" />
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <p>Developed by Kethan</p>
+        <p>&copy; 2024 Kethan Pilla. All rights reserved.</p>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Link to JavaScript -->
+    <script src="../script/script.js"></script>
+</body>
+</html>
