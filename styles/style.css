@@ -431,3 +431,7 @@ body {
     margin-top: 40px;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
 }
+
+#achievements-content{
+    padding-top: 100px;
+}
