@@ -1,3 +1,4 @@
+
 /* Reset default browser styles */
 * {
     margin: 0;
@@ -10,7 +11,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    padding-top: 70px; /* To account for fixed navbar height */
 }
 
 /* Navbar styling */
@@ -130,13 +130,73 @@ body {
     }
 }
 
-/* Achievements Content Styling */
-.achievements-content {
-    padding: 40px 20px;
+/* Content styling */
+.content {
+    padding: 120px 20px 40px; /* Top padding accounts for fixed navbar */
     text-align: center;
 }
 
-.achievements-content h3 {
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* About Section Styling */
+.about {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    margin-right: 2rem;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Projects Section Styling */
+.projects {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.projects h2 {
+    text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
     color: #1e1e1e;
@@ -165,15 +225,15 @@ body {
 
 .card-img-top {
     width: 100%;
-    height: 150px; /* Adjusted height */
+    height: 200px;
     object-fit: cover;
-    border-bottom: 1px solid #ddd;
 }
 
+/* Specific Styling for Achievement Images */
 .achievement-img {
-    height: 150px; /* Ensure consistency */
+    height: 150px; /* Decreased height from 200px to 150px */
     object-fit: cover;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -204,6 +264,99 @@ body {
     font-size: 1rem;
     margin-bottom: 1rem;
     color: #555;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.btn i {
+    margin-right: 0.5rem;
+}
+
+.btn:hover {
+    background-color: #f0a500;
+    transform: scale(1.05);
+}
+
+/* Social Section Styling */
+.social {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.social h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #1e1e1e;
+}
+
+.social-icon {
+    font-size: 2.5rem;
+    color: #1e1e1e;
+    margin: 0 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #f0a500;
+    transform: scale(1.2);
+}
+
+/* Resources Section Styling */
+.resources {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.resources h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #1e1e1e;
+}
+
+.resources ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.resources li {
+    margin: 0.5rem 0;
+}
+
+.resources a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.resources a i {
+    margin-right: 0.5rem;
+    color: #f0a500; /* Accent color for icons */
+}
+
+.resources a:hover {
+    color: #f0a500;
 }
 
 /* Contact Section Styling */
